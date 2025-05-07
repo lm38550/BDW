@@ -1,14 +1,14 @@
 ## ✨ Projet de LIFBDW
 
-Ce projet à été crée par Sasha DJAMAKORZIAN et Louis MOREL dans le cadre de l'UE LIFBDW
+Ce projet à été crée par Sasha DJAMAKORZIAN et Louis MOREL dans le cadre de l'UE LIFBDW  
 Date de publication : 28/04/2023
 
 ## 🔧 Languages et logiciels utilisés pour le développement
 
-HTML
-CSS
-PHP
-FileZilla
+HTML  
+CSS  
+PHP  
+FileZilla  
 
 ## 🧠 Compétences étudiés
 
