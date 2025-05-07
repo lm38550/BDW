@@ -1,0 +1,318 @@
+/* Developpé par DJAMAKORZIAN Sasha p2101813 et MOREL Louis p2100444 */
+
+body {
+    background-color: #C6DBF0;
+    height: 60vh;
+    font-family:Helvetica;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 1em 0;
+    font-family: Lucida Sans, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start ;    
+    background-color: #C6DBF0;
+    color: black;
+    text-align: center;
+}
+
+
+.header_titre {
+    width: 80%;
+}
+
+.header_logo {
+    width: 20%;
+    padding-top: 1%;
+}
+
+.header_logo > a > img{
+    width: 20%;
+}
+
+.main_div {
+    display: flex;
+	justify-content: space-between;
+    margin: auto;
+    border: 4px solid #28536B;
+    border-radius: 1em;
+    box-sizing: border-box;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+div{
+    width: 50%;
+    display: inline-block;
+}
+
+.main{
+    display: flex;
+    background-color: #aed1e6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;    
+	background-color: #85C7DE;
+    padding-left: 1em;
+    padding-right: 1em;
+	line-height: 2em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 4px solid #28536B;
+}
+
+main {
+	background-color: #AED1E6;
+    padding-left: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+    background-color: #C6DBF0;
+}
+
+.notification{
+    background-color: #ffffe6;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid  #ffffe6;
+
+}
+
+.panneau{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;  
+}
+
+.panneau > div{
+    margin-right: 2%;
+}
+
+.panneau_details{
+    width: 80%;
+}
+
+.table_resultat{
+    width: 100%;
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+}
+
+.table_resultat > thead > tr{
+    border: 1px solid gray;
+    background-color: #C6DBF0;
+}
+
+.table_resultat > tbody > tr:hover{
+    cursor: pointer;
+    background-color: gray !important;
+    color:  white;
+}
+
+.table_resultat > tbody > tr:nth-child(2n){
+    border: 1px solid gray;
+    background-color: #C6DBF0;
+}
+
+
+.table_resultat > tbody > tr:nth-child(2n+1){
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.bloc_commandes{
+    border: 1px solid gray;
+    border-radius: 2em;
+    background-color: white;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+}
+
+.bloc_commandes > input[type=submit]{
+    width : 15%;
+    font-size: 1.2em;
+    margin-left: 4%;
+}
+
+
+.bloc_commandes > select{
+    width: 30%; 
+    font-size: 1.2em;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.bloc_commandes > input[type=submit]:hover, .bloc_commandes > select:hover{
+
+    cursor: pointer;
+}
+
+.accueil_description{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.accueil_auteurs{
+    color: orange;
+}
+
+.acceuil_cadre{
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+    background-color: red;
+    opacity: 0.6;   
+}
+
+.accueil_img{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.ACCimg{
+    width: 250px;
+}
+
+a{
+    color: black ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #28536B;
+}
+
+.bloc_requete{
+    size: 30%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(186, 216, 255);
+    text-align: left;
+    border: solid 1px #28536B;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #28536B;
+    padding: 8px;
+  }
+  
+th {
+    background-color: #428BB3;
+    font-weight: bold;
+  }
+
+tr {
+    background-color: #85C7DE;
+}
+
+tr:hover {
+    background-color: #c0bfbf;
+}
+
+
+.nom_case{
+    background-color:#428BB3;
+    width :200px;
+}
+
+.EA_tab td{
+    width: 400px;
+}
+
+
+.EI_tab td{
+    width: 400px;
+}
+
+#titre{
+    font-weight: bold;
+    font-size: x-large;
+    font-family:'Gill Sans';
+    text-decoration: underline;
+}
+
+#sous-titre{
+    text-decoration: underline;
+}
+
+.EA_list{
+    vertical-align: top; 
+    width: 50%; 
+    margin-right: 50%;
+    float: left;
+}
+
+.EA_visu{
+    vertical-align: top; 
+    width: 50%; 
+    float: left;
+}
+
+.EA_new{
+    vertical-align: top; 
+    width: 50%; 
+    float: right;
+}
+
+
+.EI_new{
+    vertical-align: top; 
+    width: 100%; 
+}
+
+
+label{
+    width: 120px; 
+    text-align: right; 
+    margin-right: 15px; 
+}
+
+#tab1{
+    float: right;
+}
+
+#tab2{
+    float: left;
+}
+
+#tab3{
+    float: right;
+}
+
+#tab4{
+    float: right;
+}
+
+.warning{
+    color: red;
+    font-size: 10px;
+}
